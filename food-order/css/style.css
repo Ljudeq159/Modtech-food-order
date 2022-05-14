@@ -1,0 +1,476 @@
+/*css for all*/
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.float-left{
+    float: left;
+} 
+.float-container{
+    position: relative;
+}
+.bg_wheat{
+    background-color: wheat;
+}
+ul{
+    list-style-type: none;
+}
+.float-left{
+    float: left;
+}
+.float-text{
+    position: absolute;
+    bottom: 15%;
+    left: 40%; 
+}
+.color-black{
+    color: #1B1A17;
+}
+.color-yellow{
+    color: #e1b12c;
+}
+a{
+    color: #1B1A17;
+    text-decoration: none;
+}
+a:hover{
+    color: aliceblue;
+}
+
+.img-responsive{
+    width: 100%;
+    height: 100%;
+}
+.img-curve{
+    border-radius: 20px;
+}
+.text-right{
+    text-align: right;
+}
+.text-white{
+    color: white;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+
+.text-bg-color{
+    
+    width: 50%;
+    text-align: center;
+    padding: 1%;
+    background-color: #e1b12c;
+    border-radius: 20px;
+    color: #1B1A17;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.btn-primary{
+    background: #e1b12c;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: aliceblue;
+    color: #e1b12c;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.success{
+    padding: 2%;
+    color: #2ed573;
+}
+.error{
+    padding: 2%;
+    color: red;
+}
+
+/*css for navbar*/
+.navbar{
+    background-color: #e1b12c;
+    
+}
+.logo{
+    
+    width: 7%;
+    float: left;
+}
+.menu{
+   line-height: 75px;
+}
+
+.menu ul li{
+    display: inline;  
+    padding: 1%;
+    font-weight: bold;
+    
+}
+
+/*css for search/*/
+.searchbox{
+    background-image: url(../images/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1% 0;
+}
+.searchbox input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.sb-desc{
+        
+        background-color: #e1b12c;
+        margin: 0 5%;
+        width: 15%;
+        padding: 1%;
+        border-radius: 15px;
+    }
+.box-3{
+    
+    width: 28%;
+    float: left;
+    margin: 2%;
+    padding: 5px;
+    background-color: #e1b12c;
+    border-radius: 15px;
+}
+
+/* css for categories*/
+.categories{
+    background-color: wheat;
+}
+
+.food-price{
+    font-size: 1rem;
+    margin: 3% 0;
+    
+}
+.food-detail{
+    color: grey;
+}
+
+/* css for socials*/
+.social{
+    background-color: #1B1A17;
+    border-top: 1px solid grey;
+}
+.social ul li{
+    display: inline;
+}
+.social ul li a{
+    color: #e1b12c;
+}
+.s-box:hover{
+    color: aliceblue;
+}
+.s-box{
+    
+    width: 30%;
+
+    padding: 2%;
+    margin: 0 5%;
+    float: left;
+}
+.s-logo{
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+}
+.s-desc{
+    padding-top: 2%;
+}
+
+/*css for footer*/
+.footer{
+    background-color: #e1b12c;
+}
+/***********************food menu********************************/
+.food-menu{
+    background-color: wheat;
+}
+.food-menu-box{
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.food-menu-img{
+    width: 25%;
+    float: left;
+   
+}
+.food-menu-desc{
+    width: 65%;
+    float: left;
+    margin-left: 8%;
+}
+
+
+/***********************ORDER.HTML********************************/
+/*css for topbg*/
+.topbg{
+    background-image: url(../images/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding: 1% 0;
+}
+
+/* for Order Section */
+.food-order{
+    background-color: grey;
+}
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/*Css for food Search*/
+.food-search{
+    background-image: url(../images/BG.png);
+    padding: 5%;
+}
+.food-search-msg{
+    background-color: #696969;
+    border-radius: 15px;
+    padding: 2%;
+    
+    
+    
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
+
+/*Login style*/
+
+.body{
+    background: #333;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1{
+    width: 360px;
+    height: 600px;
+    background-image: url(../images/logo1.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.container1 h1{
+    font-size: 40px;
+    margin-top: 125px;
+    margin-bottom: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    background: #00000040;
+}
+.tbox{
+    width: 260px;
+    height: 40px;
+    background: wheat;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.tbox input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 30px;
+    font-size: 1rem;
+    color: #333;
+}
+.btn1{
+    width: 260px;
+    height: 40px;
+    background: lightblue;
+    border-radius: 10px;
+    margin:14px auto;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.b1{
+    position:absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 260px;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: 0.4s all;
+    color: #3498db;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.container1 a:hover{
+    background: #00000040;
+}
+
+/*user profile css*/
+.head{
+    
+    
+    font-size: 40px;
+    margin: 0 40%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    background: #00000040;
+    text-align: center;
+    
+}
+
+.body2{
+    background-color: wheat;
+}
+.text1{
+      
+    padding: 10px;
+    
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;  
+}
+.text2{
+    border: 1px solid black;
+    
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+}
+.btn2{
+    width: 260px;
+    height: 40px;
+    background: lightblue;
+    border-radius: 10px;
+    margin:14px auto;
+    display: block;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+
+}
